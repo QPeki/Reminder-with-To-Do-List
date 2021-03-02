@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+web">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reminder.css">
+
+    <script defer src="https://kit.fontawesome.com/bc68f3e3d4.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+	<script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    <script defer src="scripts/app.js"></script>
+
+    <title>To do list with Reminder </title>
+    
+</head>
+<body> 
+    <div class="container main-container">
+
+        <div class="container-todo">
+            <div class="container todo-container">
+                <div class="clear">
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                </div>
+                <div id="date"></div>
+            </div>
+            <div class="content">
+                <ul id="list">
+                    <!-- <li class="item">
+                        <i class="fa fa-circle-thin co" job="complete" id="0"></i>
+                        <p class="text">Drink Coffee</p>
+                        <i class="fa fa-trash-o de" job="delete" id="0"></i>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="add-to-do">
+                <i class="fa fa-plus-circle fa-3x plus" aria-hidden="true"></i>
+                <input type="text" id="input" placeholder="Add a to-do">
+            </div>
+    
+        </div>
+
+        <!-- Reminder Area -->
+       <div class="container-reminder">
+            <div class="container reinder-container">
+                 <h1 class="header">Your Reminders</h1>
+                <div class="container items" >
+                    <div class="div main">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="container add-btn-area">
+                <button type="button" onclick="addElement()" id="btn-st" class="btn btn-danger main-btn">ADD</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
