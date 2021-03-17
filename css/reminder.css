@@ -17,6 +17,13 @@ body {
   margin-top: 30px;
 }
 
+@media (max-width: 1200px) {
+  .container-reminder {
+    width: 500px;
+    left: 0;
+  }
+}
+
 .container-reminder h1 {
   font-family: sans-serif;
   position: relative;
@@ -38,6 +45,12 @@ body {
   min-width: 730px;
   height: 417px;
   border-radius: 0 0 15px 15px;
+}
+
+@media (max-width: 1200px) {
+  .container-reminder .reinder-container {
+    width: 500px;
+  }
 }
 
 .container-reminder .reinder-container .items {
