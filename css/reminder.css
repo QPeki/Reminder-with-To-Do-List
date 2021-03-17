@@ -83,11 +83,26 @@ body {
   outline: 0;
 }
 
+@media (max-width: 1200px) {
+  .container-reminder .main input {
+    margin-top: 15px;
+    margin-left: 0;
+    margin: 0 5px 5px 0;
+  }
+}
+
 .container-reminder .main .alarm-btn {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 18px;
   background-color: #5e5eac;
+}
+
+@media (max-width: 1200px) {
+  .container-reminder .main .alarm-btn {
+    margin-top: 15px;
+    margin-left: 0;
+  }
 }
 
 .container-reminder .main .cancel-btn {
