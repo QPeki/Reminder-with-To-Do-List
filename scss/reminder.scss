@@ -18,6 +18,11 @@ body {
     position: relative;
     margin-top: 30px;
 
+    @media (max-width: 1200px) {
+        width: 500px;
+        left: 0;
+    }
+
     h1 {
         font-family: sans-serif;
         position: relative;
@@ -40,6 +45,9 @@ body {
         height: 417px;
         border-radius: 0 0 15px 15px;
 
+        @media (max-width: 1200px) {
+            width: 500px;
+        }
 
         .items {
             position: relative;
@@ -117,3 +125,4 @@ body {
         }
     }
 }
+ 
