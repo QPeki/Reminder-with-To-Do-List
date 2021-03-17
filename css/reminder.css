@@ -19,7 +19,7 @@ body {
 
 @media (max-width: 1200px) {
   .container-reminder {
-    width: 500px;
+    width: 300px;
     left: 0;
   }
 }
@@ -49,7 +49,7 @@ body {
 
 @media (max-width: 1200px) {
   .container-reminder .reinder-container {
-    width: 500px;
+    min-width: 300px;
   }
 }
 
