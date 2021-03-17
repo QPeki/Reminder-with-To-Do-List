@@ -29,7 +29,7 @@ dateElement.innerHTML = today.toLocaleDateString('en-GB', options)
 
 document.addEventListener('keyup', e => {
     if(e.keyCode == 13) {
-        const toDo = input.value;
+        const toDo = input.value; 
         if (toDo) {
             adToDo(toDo, id, false, false);
             
