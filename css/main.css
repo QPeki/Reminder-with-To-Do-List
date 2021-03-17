@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  height: 1500px;
   background-color: rgba(0, 0, 0, 0.1);
   font-family: 'Titillium Web', sans-serif;
 }
@@ -38,6 +39,12 @@ body {
   border-radius: 15px 15px 0 0;
   position: relative;
   margin-top: 30px;
+}
+
+@media (max-width: 1200px) {
+  .main-container .container-todo .todo-container {
+    width: 300px;
+  }
 }
 
 .main-container .container-todo .clear {
@@ -79,6 +86,12 @@ body {
   margin: 0 auto;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+@media (max-width: 1200px) {
+  .main-container .container-todo .content {
+    width: 300px;
+  }
 }
 
 .main-container .container-todo .content ul {
@@ -140,6 +153,12 @@ body {
   top: 10px;
 }
 
+@media (max-width: 1200px) {
+  .main-container .container-todo .item i.de {
+    right: 130px;
+  }
+}
+
 .main-container .container-todo .item i.de:hover {
   color: #af0000;
   cursor: pointer;
@@ -154,6 +173,12 @@ body {
   width: 380px;
   margin: 0 auto;
   border-radius: 0 0 15px 15px;
+}
+
+@media (max-width: 1200px) {
+  .main-container .container-todo .add-to-do {
+    width: 300px;
+  }
 }
 
 .main-container .container-todo .add-to-do i {
