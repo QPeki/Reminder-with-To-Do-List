@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    height: 1500px;
     background-color: rgba(0,0,0,0.1);
     font-family: 'Titillium Web', sans-serif;
 }
@@ -27,6 +28,9 @@ body{
             border-radius: 15px 15px 0 0;
             position: relative;
             margin-top: 30px;
+            @media (max-width: 1200px) {
+                width: 300px;
+            }
         }
 
         .clear{
@@ -65,6 +69,9 @@ body{
             margin:0 auto;
             overflow-y: scroll;
             overflow-x: hidden;
+            @media (max-width: 1200px) {
+                width: 300px;
+            }
         }
 
         .content ul{
@@ -119,6 +126,10 @@ body{
             font-size: 25px;
             right: 50px;
             top:10px;
+
+            @media (max-width: 1200px) {
+                right: 130px;
+            }
         }
         .item i.de:hover{
             color:#af0000;
@@ -134,6 +145,9 @@ body{
             width:380px;
             margin:0 auto;
             border-radius: 0 0 15px 15px; 
+            @media (max-width: 1200px) {
+                width: 300px;
+            }
         }
         .add-to-do i{
             position: absolute;
